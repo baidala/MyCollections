@@ -32,6 +32,9 @@ public class MyCollections {
        userFromMap = usersMap.get("second");
        System.out.println("we read user: name = "+userFromMap.name+" image = "+userFromMap.image);
         
+       
+       usersMap.put("new", new User("Oleg","34.jpg","pwd"));
+       usersMap.remove("first");
         
     }
     
