@@ -54,6 +54,17 @@ public class MyCursor {
     	return local;
     }
     
+    public getList (String[] keys, int lenght) {
+    	ArrayList<> arrayList = new ArrayList<>();
+    	for (int i = 0; i < lenght; i++) {
+    		getItem(keys[i], );
+    	}
+    	
+    	
+    	return arrayList (вызывает getItem lenght-раз и создает ArrayList)
+    }
+    
+    
     
     
 }
