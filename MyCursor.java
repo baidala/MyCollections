@@ -47,6 +47,13 @@ public class MyCursor {
     	return local;
     }
     
+    public HashMap<String, String> getItem(String key, String value){ 
+    	HashMap<String, String> local = new HashMap<String, String>();
+    	local.put(key, value);
+    	
+    	return local;
+    }
+    
     
     
 }
