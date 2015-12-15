@@ -38,5 +38,15 @@ public class MyCursor {
     
     }
     
+    public HashMap<String, String> createItem(String[] keys, String[] values) {
+    	HashMap<String, String> local = new HashMap<String, String>();
+    	for (int i = 0; i < keys.length; i++) {
+    		local.put(keys[i], values[i]);
+    	}
+    	
+    	return local;
+    }
+    
+    
     
 }
